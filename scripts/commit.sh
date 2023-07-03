@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+git fetch origin ${BRANCH}
 git checkout  -b ${BRANCH}
 
 touch sample.txt
