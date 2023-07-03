@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git fetch origin ${BRANCH}
 git checkout  -b ${BRANCH}
+git pull origin -b ${BRANCH}
 
 touch sample.txt
 
